@@ -1,0 +1,40 @@
+using System;
+
+public class Animal
+{
+    private string nombre;
+    private int edad;
+
+    public Animal(string nombre, int edad)
+    {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+    public void Comer()
+    {
+        Console.WriteLine(nombre + " está comiendo.");
+    }
+    public void MostrarInfo()
+    {
+        Console.WriteLine("Nombre: " + nombre);
+        Console.WriteLine("Edad: " + edad);
+    }
+}
+public class Perro : Animal
+{
+    public Perro(string nombre, int edad) : base(nombre, edad) {}
+
+    public void Ladrar()
+    {
+        Console.WriteLine("El perro está ladrando.");
+   }
+}
+public class Gato : Animal
+{
+    public Gato(string nombre, int edad) : base(nombre, edad) {}
+
+    public void Maullar()
+    {
+        Console.WriteLine("El gato está maullando.");
+    }
+}
