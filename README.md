@@ -4,7 +4,9 @@ Ejemplo práctico de Programación Orientada a Objetos (POO)
 Estructura del codigo:
 
 CLASE: animal
+
 ATRIBUTOS: nombre, edad.
+
 METODO: comer, ladrar, maullar.
 
 OBJETIVO DEL PROYECTO:
